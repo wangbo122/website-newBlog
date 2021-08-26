@@ -1,7 +1,7 @@
 /*
  * 翻牌数字
- * @author： 兔子先生
- * @createDate: 2019-11-24
+ * @author： wb
+ * @createDate: 2021-8-2
  */
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
