@@ -4,7 +4,7 @@ author: wang bo
 author_title: 早睡早起
 author_url: https://github.com/wangbo122
 author_image_url: https://jstop1.com/blog/dvaeat.jpg
-tags: ['null', 'undefined']
+tags: ['null', 'undefined', 'JavaScript']
 ---
 
 问题：null和undefined都为空，那么JavaScript为什么会有两个空的数据类型呢？
