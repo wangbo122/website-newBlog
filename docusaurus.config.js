@@ -66,6 +66,8 @@ module.exports = {
       {
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All blog posts',
           // Please change this to your repo.
           // editUrl:
             // 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
