@@ -56,8 +56,10 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Mr Wang, Person. Built with Docusaurus.`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      // theme: lightCodeTheme,
+      // darkTheme: darkCodeTheme,
+      theme: darkCodeTheme,
+      lightTheme: lightCodeTheme
     },
   },
   presets: [

@@ -1,0 +1,157 @@
+.Astronaut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(86, 71, 117), #000, #000);
+    transition: 2s;
+}
+
+.shell {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content h2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 300px;
+    text-align: center;
+    color: rgba(255, 255, 255, .9);
+    z-index: 999;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font: 800 100px '优设标题黑';
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.images div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.img1 {
+    background-image: url('../assets/Astronaut/1.png');
+}
+
+.img2 {
+    background-image: url('../assets/Astronaut/2.png');
+}
+
+.img3 {
+    background-image: url('../assets/Astronaut/3.png');
+}
+
+.img4 {
+    background-image: url('../assets/Astronaut/4.png');
+}
+
+.img5 {
+    background-image: url('../assets/Astronaut/5.png');
+}
+
+.images .img6 {
+    background-image: url('../assets/Astronaut/6.png');
+    transform: translate(600px, 400px) scale(1);
+    position: sticky;
+    top: -400px;
+    opacity: 1;
+}
+
+.images .img7 {
+    background-image: url('../assets/Astronaut/7.png');
+    transform: translate(0, 2100px);
+    background-size: contain;
+    height: 3400px;
+}
+
+.images .img8 {
+    background-image: url('../assets/Astronaut/8.png');
+    transform: translate(0, 2100px);
+    background-size: contain;
+    height: 3400px;
+    transition: 1s;
+}
+
+.images .img9 {
+    background-image: url('../assets/Astronaut/9.png');
+    transform: translate(0, 2100px);
+    background-size: contain;
+    height: 3400px;
+    transition: 1s;
+}
+
+.images .img10 {
+    background-image: url('../assets/Astronaut/10.png');
+    background-size: contain;
+    height: 3400px;
+    transform: translate(700px, 2100px);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: translate(0px, 5000px);
+}
+
+.images .img11 {
+    background-image: url('../assets/Astronaut/11.png');
+    transform: translate(0px, 300px);
+    transition: 1s;
+}
+
+.images .img12 {
+    background-image: url('../assets/Astronaut/12.png');
+    transform: translate(0px, 300px);
+    transition: .7s;
+}
+
+.images .img13 {
+    background-image: url('../assets/Astronaut/13.png');
+    transform: translate(0px, 300px);
+    transition: .5s;
+}
+
+.images .img14 {
+    background-image: url('../assets/Astronaut/14.png');
+}
+.image span{
+    letter-spacing: 3px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 300px;
+    text-align: center;
+    color: rgba(255, 255, 255, .9);
+    z-index: 999;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font: 800 80px '优设标题黑';
+}
+.gotoBlog{
+    z-index: 999;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    cursor: pointer;
+}
